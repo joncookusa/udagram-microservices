@@ -24,4 +24,4 @@ install:
   - docker push jrc294/udacity-restapi-feed
   - docker push jrc294/udacity-restapi-user
   - docker push jrc294/reverseproxy
-  - docker push jrc294/udacity-restapi-frontend:local
+  - docker push jrc294/udacity-frontend:local
