@@ -23,4 +23,5 @@ install:
   - docker login -u "jrc294" -p "Command1234$" docker.io
   - docker push jrc294/udacity-restapi-feed
   - docker push jrc294/udacity-restapi-user
-  - docker push jrc294/udacity-restapi-frontend
+  - docker push jrc294/reverseproxy
+  - docker push jrc294/udacity-restapi-frontend:local
