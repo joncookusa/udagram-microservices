@@ -20,4 +20,6 @@ before_install:
 install:
   - echo 'Hello Udacity..3.'
   - docker-compose push
+
+
 #  - docker-compose -f udacity-c3-deployment/docker/docker-compose-build.yaml build --parallel
