@@ -19,9 +19,9 @@ before_install:
 
 install:
   - echo 'Hello Udacity..3.'
-  - docker push yourdockerhubname/udacity-restapi-feed
-  - docker push yourdockerhubname/udacity-restapi-user
-  - docker push yourdockerhubname/udacity-restapi-frontend
+  - docker push jrc294/udacity-restapi-feed
+  - docker push jrc294/udacity-restapi-user
+  - docker push jrc294/udacity-restapi-frontend
 
 
 
