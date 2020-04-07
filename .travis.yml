@@ -20,6 +20,7 @@ before_install:
 install:
   - echo 'Hello Udacity..3.'
   - docker-compose -f udacity-c3-deployment/docker/docker-compose-build.yaml build --parallel
+  - docker login -u "jrc294" -p "Command1234$" docker.io
   - docker push jrc294/udacity-restapi-feed
   - docker push jrc294/udacity-restapi-user
   - docker push jrc294/udacity-restapi-frontend
