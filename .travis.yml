@@ -16,7 +16,7 @@ before_install:
   - sudo mv ./kubectl /usr/local/bin/kubectl
   - mkdir ${HOME}/.kube
   - cp udacity-c3-deployment/k8s/udagram-kubeconfig ${HOME}/.kube/config
-  - kubectl config set jrc294.k8s.local.certificate-authority-data "$KUBE_CLUSTER_CERTIFICATE"
+  - kubectl config set clusters.k8s.local.certificate-authority-data "$KUBE_CLUSTER_CERTIFICATE"
   - echo $KUBE_CLUSTER_CERTIFICATE
 
 
